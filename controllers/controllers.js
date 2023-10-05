@@ -82,7 +82,7 @@ const transcribeVideo = async (req, res) => {
         const { filename } = req.params
         console.log(filename)
         const response = await deepgram.transcription.preRecorded(
-            { url: "https://chrome-ext-server.onrender.com/uploads/" + filename },
+            { url: "https://hng-chrome-9smj.onrender.com/uploads/" + filename },
             { punctuate: true, utterances: true }
         )
 
