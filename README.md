@@ -13,7 +13,7 @@ Clone the repository to your local machine:
 
 ```
 Copy code
-git clone <https://github.com/urizennnn/HNG-chrome-hng-BE.git>
+git clone <https://github.com/urizennnnnnn/hng.git>
 Navigate to the project directory:
 ```
 
@@ -86,12 +86,12 @@ When uploading a video file, make a POST request to /api/hng/uploadfile with a f
 To view the list of uploaded videos, make a GET request to /api/hng/showvideos. This route will return a JSON response with URLs to the uploaded videos.
 
 ### Transcribe endpoint:
-GET https://chrome-ext-server.onrender.com/api/hng/transcribe/:filename
+GET https://hng-chrome-9smj.onrender.com/api/hng/transcribe/:filename
 ### Description: 
 Generate transcript for the uploaded 
 
 ### Request body
-https://chrome-ext-server.onrender.com/api/hng/transcribe/filename
+https://hng-chrome-9smj.onrender.com/api/hng/transcribe/filename
 
 ## Response
 ### Success:
